@@ -6,6 +6,12 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A85C12652818CDBB007061A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C12642818CDBB007061A2 /* main.swift */; };
+		A85C12662818D17E007061A2 /* Selection Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C126128185761007061A2 /* Selection Sort.swift */; };
+		A87BB6AC2818D534003CE8FB /* Bubble Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BB6AB2818D534003CE8FB /* Bubble Sort.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A85C124F281853C3007061A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A85C1251281853C3007061A2 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85C126128185761007061A2 /* Selection Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Selection Sort.swift"; sourceTree = "<group>"; };
+		A85C12642818CDBB007061A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A87BB6AB2818D534003CE8FB /* Bubble Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bubble Sort.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 		A85C1253281853C3007061A2 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A85C12642818CDBB007061A2 /* main.swift */,
+				A87BB6AA2818D534003CE8FB /* BubbleSort */,
 				A85C125D2818544E007061A2 /* SelectionSort */,
 			);
 			path = Algorithm;
@@ -64,6 +74,14 @@
 				A85C126128185761007061A2 /* Selection Sort.swift */,
 			);
 			path = SelectionSort;
+			sourceTree = "<group>";
+		};
+		A87BB6AA2818D534003CE8FB /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				A87BB6AB2818D534003CE8FB /* Bubble Sort.swift */,
+			);
+			path = BubbleSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87BB6AC2818D534003CE8FB /* Bubble Sort.swift in Sources */,
+				A85C12652818CDBB007061A2 /* main.swift in Sources */,
+				A85C12662818D17E007061A2 /* Selection Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

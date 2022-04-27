@@ -7,9 +7,8 @@
 
 import Foundation
 
-var array = [3,1,55,2,28,19,31,93,6]
-
-func selectionSort() {
+public func selectionSort(array: [Int]) {
+    var array = array
     for i in 0..<array.count {
         var min_value = array[i]
         var min_index = i
@@ -27,5 +26,5 @@ func selectionSort() {
         array[min_index] = tmp
     }
 
-    print(array)
+    print("Selection Sort: \(array)")
 }
