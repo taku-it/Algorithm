@@ -10,6 +10,7 @@
 		A85C12652818CDBB007061A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C12642818CDBB007061A2 /* main.swift */; };
 		A85C12662818D17E007061A2 /* Selection Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C126128185761007061A2 /* Selection Sort.swift */; };
 		A87BB6AC2818D534003CE8FB /* Bubble Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BB6AB2818D534003CE8FB /* Bubble Sort.swift */; };
+		A8934E24281A667A0062156C /* Insertion Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8934E23281A3C120062156C /* Insertion Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +156,7 @@
 			files = (
 				A87BB6AC2818D534003CE8FB /* Bubble Sort.swift in Sources */,
 				A85C12652818CDBB007061A2 /* main.swift in Sources */,
+				A8934E24281A667A0062156C /* Insertion Sort.swift in Sources */,
 				A85C12662818D17E007061A2 /* Selection Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
