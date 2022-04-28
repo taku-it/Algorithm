@@ -12,10 +12,14 @@ public func insertionSort(array:[Int]) {
     var array = array
     
     for i in 1..<n {
+        
+//        値が上書きされることがあるため、コピーする
         let tmp = array[i]
+//        挿入位置を表す
         var j = i - 1
         
-        while j >= 0 && tmp < array[j] {
+//        適切な挿入位置が見つかるまでarray[i]より大きい要素を後ろに一つずつずらしていく
+        while j >= 0 && array[j] > tmp {
             array[j + 1] = array[j]
             j -= 1
         }
