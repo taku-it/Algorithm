@@ -7,7 +7,7 @@
 
 import Foundation
 
-var array = [3,1,55,2,28,19,31,93,6]
+var array = [4,1,3,5,2]
 
 ///If you want to stop the sort from running, comment it out.
 
@@ -15,3 +15,5 @@ var array = [3,1,55,2,28,19,31,93,6]
 selectionSort(array: array)
 //Run Bubble Sort
 bubbleSort(array: array)
+//Run Insertion Sort
+insertionSort(array: array)
