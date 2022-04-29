@@ -7,13 +7,15 @@
 
 import Foundation
 
-var array = [4,1,3,5,2]
+var array = [4,1,3,5,2,23,51,12,33]
 
 ///If you want to stop the sort from running, comment it out.
-
+print("Default: \(array)")
 //Run Selection Sort
-selectionSort(array: array)
+selectionSort(array)
 //Run Bubble Sort
-bubbleSort(array: array)
+bubbleSort(array)
 //Run Insertion Sort
-insertionSort(array: array)
+insertionSort(array)
+//Run Merge Sort(return [Int])
+print("Merge Sort: \(mergeSort(array))")

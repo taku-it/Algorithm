@@ -7,7 +7,7 @@
 
 import Foundation
 
-public func bubbleSort(array:[Int]) {
+public func bubbleSort(_ array:[Int]) {
     var array = array
     for i in 0..<array.count - 1 {
         for j in 0..<array.count - i - 1 {

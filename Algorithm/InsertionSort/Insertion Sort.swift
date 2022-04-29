@@ -7,7 +7,7 @@
 
 import Foundation
 
-public func insertionSort(array:[Int]) {
+public func insertionSort(_ array:[Int]) {
     let n = array.count
     var array = array
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public func selectionSort(array: [Int]) {
+public func selectionSort(_ array: [Int]) {
     var array = array
     for i in 0..<array.count {
         var min_value = array[i]
